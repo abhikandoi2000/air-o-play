@@ -1,0 +1,166 @@
+/* Air-o-Play
+ * Hackathon - Syntax Error 2.0
+ */
+
+/* font */
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arvo'), url('arvo.woff') format('woff');
+}
+
+body {
+	font-family: Arvo, Arial, "Times new roman";
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(90, 240, 90);
+}
+
+#header-wrapper {
+	padding-top: 50px;
+	background-color: rgb(50, 150, 50);
+	height: 175px;
+	box-shadow: 0px 3px 15px rgba(50, 50, 50, 0.60);
+	-o-box-shadow: 0px 3px 15px rgba(50, 50, 50, 0.60);
+	-webkit-box-shadow: 0px 3px 15px rgba(50, 50, 50, 0.60);
+	-moz-box-shadow: 0px 3px 15px rgba(50, 50, 50, 0.60);
+}
+
+#header {
+	width: 968px;
+	margin: 0px auto;
+}
+
+#header .caption {
+	color: white;
+	font-style: italic;
+	font-size: 25px;
+	float: right;
+	border-radius: 20px;
+	padding: 8px;
+	margin-bottom: 15px;
+	background-color: rgb(90, 240, 90);
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.6);
+}
+
+/*
+ *	Content
+ */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#content-wrapper a:hover {
+	text-decoration: underline;
+	background-color: rgba(180, 180, 180, 0.6);
+}
+
+h1.logo {
+	text-align: center;
+	margin: 0px auto;
+	font-size: 80px;
+}
+
+#content-wrapper {
+	padding: 10px 0px;
+	font-size: 30px;
+	/*background-color: rgb(90, 240, 90);*/
+	height: 100%;
+}
+
+#content {
+	margin: 0px auto;
+	width: 968px;
+}
+
+#content div {
+	border-radius: 5px 5px 4px 4px;
+	-o-border-radius: 5px 5px 4px 4px;
+	-webkit-border-radius: 5px 5px 4px 4px;
+	-moz-margin-top: 4px;
+	color: green;
+	padding: 5px 15px;
+	border: 1px dotted rgba(100, 100, 100, 0.8);
+	box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.5);
+	-o-box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.5);
+	-webkit-box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.5);
+	-moz-box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.5);
+	background-color: rgb(230, 230, 230);
+	margin-bottom: 5px;
+}
+
+#content div a {
+	margin-left: 50px;
+	color: green;
+}
+
+div.folder {
+	background: url('folder.png') no-repeat;
+	background-size: 40px 40px;
+	background-position: 20px 5px;
+}
+
+div.video {
+	clear: both;
+	background: url('video.png') no-repeat;
+	background-size: 40px 40px;
+	background-position: 20px 5px;
+	text-align: center;
+}
+
+div.image {
+	float: left;
+	margin-right: 10px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+#content div img {
+	margin: 0px auto 0px auto;
+}
+
+#content audio {
+	margin-left: 50px;
+}
+
+div.audio {
+	float: left;
+	width: 442px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+span.filename {
+	font-size: 15px;
+	float: right;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: white;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.6);
+}
+
+/*
+ *  Footer
+ */
+
+#footer-wrapper {
+	padding-top: 20px;
+	clear: both;
+	/*background-color: rgb(50, 200, 50);*/
+	color: white;
+}
+
+#footer {
+	background-color: rgb(50,200,50);
+	margin: 0px auto;
+	text-align: center;
+	padding: 10px 0px;
+}
