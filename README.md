@@ -47,6 +47,7 @@ Start the app
 Open the webpage ipaddress:8008 on your device using a modern browser(should support audio formats atleast) for instant media access
 
 For Android
+
 	Opera Mobile 12
 
 Could not try on other devices
@@ -54,8 +55,6 @@ Could not try on other devices
 TODO
 ==========
 
-rework on UX
-
-test on multiple devices
-
-add support for more formats
+	rework on UX
+	test on multiple devices
+	add support for more formats
