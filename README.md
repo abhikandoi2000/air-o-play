@@ -1,40 +1,39 @@
-air-o-play
-==========
+# air-o-play
 
 Stream media files over WiFi for instant access.
 
-Dependencies
-==========
-* node
+## Dependencies
+* node (>=0.6.0)
 *	node-static
 *	python >=2.7
 
 
-Supported File Formats
-==========
+## Supported File Formats
 
-Video
+### Video
 
 	avi, mkv, mp4
 
-Audio
+### Audio
 
 	mp3, ogg, m4a
 
-Images
+### Images
 
-	png", jpeg, gif, jpg
+	png, jpeg, gif, jpg
 
 
-Usage
-==========
+## Usage
+
+### Clone
 
 Clone the repo and change to air-o-play directory
 
 	git clone https://github.com/abhikandoi2000/air-o-play.git
 	cd air-o-play
+	npm install
 
-Add your media files to the folder "media"
+Add your media files to the folder `media`
   
 Use generate.py file to generate html files
 
@@ -44,17 +43,18 @@ Start the app
 
 	node app.js
 
-Open the webpage ipaddress:8008 on your device using a modern browser(should support audio formats atleast) for instant media access
+Open the webpage ipaddress:8080 on your device using a modern browser(should support audio formats atleast) for instant media access.
 
-For Android
+## Tested Devices
+
+### Android
 
 	Opera Mobile 12
 
-Could not try on other devices
+Could not test on other devices since it was a hackathon.
 
-TODO
-==========
+## TODO
 
-	rework on UX
-	test on multiple devices
-	add support for more formats
+	* rework on UX
+	* test on multiple devices
+	* add support for more formats
