@@ -3,14 +3,14 @@ air-o-play
 
 Stream media files over WiFi for instant access.
 
-dependencies
+Dependencies
 ==========
-	node
-	node-static
-	python >=2.7
+* node
+*	node-static
+*	python >=2.7
 
 
-Files Supported
+Supported File Formats
 ==========
 
 Video
@@ -26,7 +26,7 @@ Images
 	png", jpeg, gif, jpg
 
 
-usage
+Usage
 ==========
 
 Clone the repo and change to air-o-play directory
@@ -36,9 +36,9 @@ Clone the repo and change to air-o-play directory
 
 Add your media files to the folder "media"
   
-Use generatehtml.py file to generate html files
+Use generate.py file to generate html files
 
-	python generatehtml.py
+	python generate.py
 
 Start the app
 
