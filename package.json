@@ -1,0 +1,20 @@
+{
+  "name": "air-o-play",
+  "version": "0.0.1",
+  "author": "Abhishek Kandoi <abhikandoi2000@gmail.com> (http://abhikandoi.in)",
+  "description": "Stream media files over your network",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhikandoi2000/air-o-play.git"
+  },
+  "dependencies": {
+    "node-static": "*"
+  },
+  "scripts":{
+    "serve": "node app.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
